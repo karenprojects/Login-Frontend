@@ -17,8 +17,8 @@ const AdicionarTarefa: React.FC<AdicionarTarefaProps> = ({ onAdicionarTarefa }) 
     };
 
     return (
-        <View style={{ backgroundColor: '#402291', paddingVertical: 20, paddingHorizontal: 20, paddingTop: 50 }}>
-            <Text fontSize="xl" color="white" mb={4}>Lista de Tarefas Hete Caetano</Text>
+        <View style={{ backgroundColor: '#228291', paddingVertical: 20, paddingHorizontal: 20, paddingTop: 50 }}>
+            <Text fontSize="xl" color="white" mb={4}>Lista de Tarefas Easy Tech</Text>
             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                 <View style={{ flex: 1, marginRight: 10 }}>
                     <Input

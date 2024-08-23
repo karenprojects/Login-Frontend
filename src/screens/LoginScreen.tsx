@@ -14,7 +14,7 @@ const LoginScreen: React.FC<Props> = ({ navigation }) => {
 
   const handleLogin = async () => {
     if (!username || !password) {
-      setErrorMessage('Por favor, preencha todos os campos.');
+      setErrorMessage('Por favor, preencha todos os campos necessários.');
       return;
     }
 

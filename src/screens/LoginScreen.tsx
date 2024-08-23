@@ -28,7 +28,7 @@ const LoginScreen: React.FC<Props> = ({ navigation }) => {
       });
 
       if (!response.ok) {
-        setErrorMessage('Erro ao fazer login. Verifique suas credenciais.');
+        setErrorMessage('Erro ao fazer login. Verifique suas credenciais :).');
         return;
       }
 
